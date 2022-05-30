@@ -39,10 +39,9 @@ const Detail  = () => {
     }, []);
 
     return (<div>
-
         {loading ? <Loading /> : 
                     <MoreDetail title_long={movie.title_long} large_cover={movie.large_cover_image} desc={movie.description_full} genres={movie.genres} detailUrl={movie.url} />}
-    </div>) 
+    </div>)
 }
 
 export default Detail;
